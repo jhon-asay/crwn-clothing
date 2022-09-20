@@ -1,6 +1,6 @@
-// TODO: Change px to rem
+import styled from 'styled-components';
 
-.sign-up-container {
+export const SignInContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 380px;
@@ -13,4 +13,4 @@
     display: flex;
     justify-content: space-between;
   }
-}
+`;
